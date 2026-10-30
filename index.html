@@ -11,15 +11,25 @@
     <div class="card">
     <h1>Generate a<br /> <span>random password</span> </h1>
     <p class="subtitle">Never use an insecure password again.</p>
+    <select id="length">
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="10" selected>10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+    </select>
     <button id="generate-btn">Generate Password</button>
     <hr />
+    
     
     <div class="passwords">
         <div class="password-box" id="password-1"></div>
         <div class="password-box" id="password-2"></div>
     </div>
+    <p id="one"> Click on a password to copy<p />
 </div>
-
+    
     <script src="index.js"></script>
 </body>
 </html>
